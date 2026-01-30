@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>NotificationService.Contracts</RootNamespace>
+    <PackageId>NotificationService.Contracts</PackageId>
+    <Description>Event contracts for NotificationService integration. All services reference this package to publish notification events.</Description>
+  </PropertyGroup>
+
+</Project>
