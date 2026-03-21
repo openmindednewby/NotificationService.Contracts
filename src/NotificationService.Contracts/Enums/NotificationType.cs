@@ -1,4 +1,4 @@
-namespace NotificationService.Contracts.Enums;
+﻿namespace NotificationService.Contracts.Enums;
 
 /// <summary>
 /// Well-known notification types. Services should use these constants
@@ -60,4 +60,14 @@ public static class NotificationTypes
     /// A system-wide announcement.
     /// </summary>
     public const string SystemAnnouncement = "system.announcement";
+
+    /// <summary>
+    /// A team member has been invited.
+    /// </summary>
+    public const string TeamMemberInvited = "team.member.invited";
+
+    /// <summary>
+    /// A team member has accepted an invitation.
+    /// </summary>
+    public const string TeamMemberAccepted = "team.member.accepted";
 }
