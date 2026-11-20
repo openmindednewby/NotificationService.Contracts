@@ -38,7 +38,7 @@ public sealed record TeamMemberAcceptedEvent : INotificationEvent
     public string NotificationType => NotificationTypes.TeamMemberAccepted;
 
     /// <inheritdoc />
-    public NotificationPriority Priority => NotificationPriority.Medium;
+    public NotificationPriority Priority => NotificationPriority.Normal;
 
     /// <inheritdoc />
     public DateTimeOffset OccurredAt { get; init; } = DateTimeOffset.UtcNow;
